@@ -104,7 +104,6 @@ module Control.Lens.Operators
   , (<#~)
   , (<#=)
   -- * "Control.Lens.Plated"
-  , (...)
   -- * "Control.Lens.Review"
   , ( # )
   -- * "Control.Lens.Setter"

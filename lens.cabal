@@ -10,7 +10,7 @@ stability:     provisional
 homepage:      http://github.com/ekmett/lens/
 bug-reports:   http://github.com/ekmett/lens/issues
 copyright:     Copyright (C) 2012-2016 Edward A. Kmett
-build-type:    Custom
+build-type:    Simple
 -- build-tools:   cpphs
 tested-with:   GHC == 7.4.2, GHC == 7.6.3, GHC == 7.8.4, GHC == 7.10.1, GHC == 7.10.2, GHC == 8.0.2
 synopsis:      Lenses, Folds and Traversals
@@ -210,7 +210,7 @@ library
     semigroupoids             >= 5        && < 6,
     semigroups                >= 0.8.4    && < 1,
     tagged                    >= 0.4.4    && < 1,
-    template-haskell          >= 2.4      && < 2.12,
+--    template-haskell          >= 2.4      && < 2.12,
     text                      >= 0.11     && < 1.3,
     transformers              >= 0.2      && < 0.6,
     transformers-compat       >= 0.4      && < 1,
@@ -241,8 +241,8 @@ library
     Control.Lens.Internal.Context
     Control.Lens.Internal.Deque
     Control.Lens.Internal.Exception
-    Control.Lens.Internal.FieldTH
-    Control.Lens.Internal.PrismTH
+    -- Control.Lens.Internal.FieldTH
+    -- Control.Lens.Internal.PrismTH
     Control.Lens.Internal.Fold
     Control.Lens.Internal.Getter
     Control.Lens.Internal.Indexed
@@ -254,18 +254,18 @@ library
     Control.Lens.Internal.Prism
     Control.Lens.Internal.Review
     Control.Lens.Internal.Setter
-    Control.Lens.Internal.TH
+    -- Control.Lens.Internal.TH
     Control.Lens.Internal.Zoom
     Control.Lens.Iso
     Control.Lens.Lens
     Control.Lens.Level
     Control.Lens.Operators
-    Control.Lens.Plated
+    -- Control.Lens.Plated
     Control.Lens.Prism
     Control.Lens.Reified
     Control.Lens.Review
     Control.Lens.Setter
-    Control.Lens.TH
+    -- Control.Lens.TH
     Control.Lens.Traversal
     Control.Lens.Tuple
     Control.Lens.Type
@@ -299,7 +299,7 @@ library
     System.Exit.Lens
     System.FilePath.Lens
     System.IO.Error.Lens
-    Language.Haskell.TH.Lens
+    -- Language.Haskell.TH.Lens
     Numeric.Lens
 
   other-modules:
